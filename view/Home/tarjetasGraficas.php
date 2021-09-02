@@ -2,18 +2,33 @@
 <html>
 <head>
 <meta charset="utf-8">
+<<<<<<< HEAD
 <link href="/public/css/csstarjeta.css" rel="stylesheet" type="text/css" />
 <title>HOMEPAGE</title>
 
+=======
+<link href="../../public/css/csstarjeta.css" rel="stylesheet" type="text/css" />
+<title>TARJETAS</title>
+<link rel="stylesheet" href="">
+>>>>>>> ec035ae59cc22a1a0152059927d954d60c03a7bc
 </head>
 
 <body>
 
 <section class="wrap-3d">
+<<<<<<< HEAD
 <a href="">Inicio</a>
   <div class="intro">
     <h1>Tarjetas graficas</h1>
     <p>busque sutarjeta grafica de la mejor manera, con la mejor tienda de perifericos</p>
+=======
+  <div class="intro">
+  <a class="animated-border-button" href="http://localhost:8090/Pruebaequipo/">Inicio</a>
+<br>
+<br>
+    <h1>Tarjetas graficas</h1>
+    <p>busque su tarjeta grafica de la mejor manera, con la mejor tienda de perifericos</p>
+>>>>>>> ec035ae59cc22a1a0152059927d954d60c03a7bc
 
   </div>
   
@@ -90,7 +105,11 @@
     <span class="ground"></span>
     <figure class="item-content group">
       <div class="item-img">
+<<<<<<< HEAD
         <img src="https://w7.pngwing.com/pngs/119/402/png-transparent-graphics-cards-video-adapters-nvidia-geforce-gtx-1050-ti-gddr5-sdram-%E8%8B%B1%E4%BC%9F%E8%BE%BE%E7%B2%BE%E8%A7%86gtx-others-electronic-device-geforce-gtx.png" alt="" />
+=======
+        <img src="https://static-geektopia.com/storage/geek/products/gigabyte/geforce-gtx-1050-ti-windforce-oc-4g/20161017110058_big.png" alt="" />
+>>>>>>> ec035ae59cc22a1a0152059927d954d60c03a7bc
       </div>
       <figcaption class="item-caption">
         <p>
@@ -131,7 +150,11 @@
   </div>
   
   <footer class="footer">
+<<<<<<< HEAD
     <p>hacker squad &copy; 2021 hacker squad <a  target="_blank">Hornebom</a></p>
+=======
+    <p>hacker squad &copy; 2021 hacker squad <a  target="_blank">Tarjetas</a></p>
+>>>>>>> ec035ae59cc22a1a0152059927d954d60c03a7bc
   </footer>
 </section>
 </body>
