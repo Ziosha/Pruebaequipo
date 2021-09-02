@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link href="/public/css/csstarjeta.css" rel="stylesheet" type="text/css" />
+<link href="../../public/css/csstarjeta.css" rel="stylesheet" type="text/css" />
 <title>HOMEPAGE</title>
 
 </head>
