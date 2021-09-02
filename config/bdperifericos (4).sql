@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3308
--- Tiempo de generación: 02-09-2021 a las 17:03:45
+-- Tiempo de generación: 02-09-2021 a las 22:55:20
 -- Versión del servidor: 8.0.18
 -- Versión de PHP: 8.0.2
 
@@ -59,9 +59,9 @@ CREATE TABLE IF NOT EXISTS `grafica` (
 --
 
 INSERT INTO `grafica` (`idP`, `modelo`, `capacidad`, `disipador`, `costo`, `stock`, `disponible`, `imagen`) VALUES
-('gra322', 'rtx2060', 1830, 'ventilador', 3283, 4, 1, 'rtx2060.jpg'),
-('gra3454', 'RX 570 GAMING X 4G', 1281, 'ventilador', 2196, 3, 1, 'rx570.jpg'),
-('gra43534', 'RTX3070 V2 OC GDDR6', 1800, 'Ventilador', 6380, 4, 1, 'rx3070.jpg');
+('gra322', 'rtx2060', 1830, 'ventilador', 3283, 4, 1, 'rtx2060.png'),
+('gra3454', 'Nvidia GeForce 3090', 1395, 'ventilador', 12686, 3, 1, 'rtx3090.png'),
+('gra43534', 'Nvidia GeForce 2070', 1710, 'Ventilador', 6814, 4, 1, 'rtx2070.png');
 
 -- --------------------------------------------------------
 

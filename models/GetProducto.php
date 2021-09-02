@@ -1,22 +1,13 @@
 <?php
-
-    //Datos de conexion
-    require_once("conexion.php");
-
     //clase con consultas para la BD
-    class DevuelveProductos extends Conexion
+    class DevuelveProductos extends Conectar
     {
-        public function __construct()
-        {
-            parent::__construct();
-        }
-
-        //-------OBTENER PRODUCTOS COMPLETOS
-
         public function getGraficas() 
         {
+            $conectar = parent::conexion();
+            parent::set_names();
             $sql = "SELECT * FROM grafica";
-            $sentencia=$this->conexion_db->prepare($sql);
+            $sentencia=$conectar->prepare($sql);
             $sentencia->execute(array());
             $resultado=$sentencia->fetchAll(PDO::FETCH_ASSOC);
             $sentencia->closeCursor();
@@ -26,8 +17,10 @@
 
         public function getHeadset() 
         {
+            $conectar = parent::conexion();
+            parent::set_names();
             $sql = "SELECT * FROM headset";
-            $sentencia=$this->conexion_db->prepare($sql);
+            $sentencia=$conectar->prepare($sql);
             $sentencia->execute(array());
             $resultado=$sentencia->fetchAll(PDO::FETCH_ASSOC);
             $sentencia->closeCursor();
@@ -37,8 +30,10 @@
 
         public function getMonitor() 
         {
+            $conectar = parent::conexion();
+            parent::set_names();
             $sql = "SELECT * FROM monitor";
-            $sentencia=$this->conexion_db->prepare($sql);
+            $sentencia=$conectar->prepare($sql);
             $sentencia->execute(array());
             $resultado=$sentencia->fetchAll(PDO::FETCH_ASSOC);
             $sentencia->closeCursor();
@@ -48,8 +43,10 @@
 
         public function getMotherboard() 
         {
+            $conectar = parent::conexion();
+            parent::set_names();
             $sql = "SELECT * FROM motherboard";
-            $sentencia=$this->conexion_db->prepare($sql);
+            $sentencia=$conectar->prepare($sql);
             $sentencia->execute(array());
             $resultado=$sentencia->fetchAll(PDO::FETCH_ASSOC);
             $sentencia->closeCursor();
@@ -59,8 +56,10 @@
 
         public function getMouse() 
         {
+            $conectar = parent::conexion();
+            parent::set_names();
             $sql = "SELECT * FROM mouse";
-            $sentencia=$this->conexion_db->prepare($sql);
+            $sentencia=$conectar->prepare($sql);
             $sentencia->execute(array());
             $resultado=$sentencia->fetchAll(PDO::FETCH_ASSOC);
             $sentencia->closeCursor();
@@ -70,8 +69,10 @@
 
         public function getRam() 
         {
+            $conectar = parent::conexion();
+            parent::set_names();
             $sql = "SELECT * FROM ram";
-            $sentencia=$this->conexion_db->prepare($sql);
+            $sentencia=$conectar->prepare($sql);
             $sentencia->execute(array());
             $resultado=$sentencia->fetchAll(PDO::FETCH_ASSOC);
             $sentencia->closeCursor();
@@ -81,8 +82,10 @@
 
         public function getTeclado() 
         {
+            $conectar = parent::conexion();
+            parent::set_names();
             $sql = "SELECT * FROM teclado";
-            $sentencia=$this->conexion_db->prepare($sql);
+            $sentencia=$conectar->prepare($sql);
             $sentencia->execute(array());
             $resultado=$sentencia->fetchAll(PDO::FETCH_ASSOC);
             $sentencia->closeCursor();
@@ -153,6 +156,19 @@
 
            
            
+        }
+
+        //----verificar
+        public function verificaBool($campo)
+        {
+            if($campo==1)
+            {
+                echo "Si";
+            }
+            else
+            {
+                echo "No";
+            }
         }
 
     }
