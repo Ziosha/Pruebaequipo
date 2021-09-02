@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/609/543/629/computers-1920x1080-nvidia-water-cooling-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  header{
+    font-family: Helvetica;
+    width: 480px;
+    margin: 0 auto;
+    background-color: royalblue;
+    
+  }
+  ul{
+    list-style: none;
+  }
+  #menu li>a{
+    background-color: rgb(40, 152, 250);
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+  }
+  #menu li>a:hover{
+    color: #000;
+    background-color: #0c95c2;
+  }
+  #menu>li{
+    float: left;
+    text-align:center
+  }
+  #menu>li>ul{
+    display: none;
+  }
+  #menu>li:hover>ul {
+    display:block;
+  }
+  body{
+        align-items: center;
+  }
+  h1{
+      color: white;
+  }
+ #menu li ul li a:hover{
+     background: royalblue;
+ }
+ #menu li a:hover{
+    background: royalblue;
+}
+
+
+/*gundilsgiduilgdlgdllgldsudfghldsh*/
+
+.prrona{
+  display: inline;
+}
+
+
