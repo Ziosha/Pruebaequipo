@@ -11,7 +11,7 @@
 
 <section class="wrap-3d">
   <div class="intro">
-  <a class="animated-border-button" href="http://localhost:8090/Pruebaequipo/">Inicio</a>
+  <a class="animated-border-button" href="../../index.php">Inicio</a>
 <br>
 <br>
     <h1>Monitores</h1>
