@@ -1,4 +1,7 @@
 
+body{
+    background-color: rgba(13, 13, 14, 0.829);
+}
 .conte{
     width: 100vw;
     height: 100vh;
