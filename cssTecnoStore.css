@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+
+ 
+}
+header {
+  font-family: Helvetica;
+  width: 800px;
+  height: 55%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+
+ 
+  
+}
+ul {
+  list-style: none;
+  z-index: 100;
+}
+nav{
+  margin-top: 20px;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+#menu li > a {
+  background-color: rgba(17, 17, 17, 0.774);
+  color: rgb(238, 237, 237);
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 120px;
+  z-index: 100;
+  border-radius: 2px;
+ 
+}
+#menu li > a:hover {
+  color: #000;
+  background-color: #0c95c2;
+  z-index: 100;
+}
+#menu > li {
+  float: left;
+  text-align: center;
+  z-index: 100;
+}
+#menu > li > ul {
+  display: none;
+  z-index: 100;
+}
+#menu > li:hover > ul {
+  display: block;
+  z-index: 100;
+}
+body {
+  align-items: center;
+}
+h1 {
+  color: rgba(241, 237, 237, 0.836);
+  font-size: 60px
+ 
+  
+
+  
+}
+#menu li ul li a:hover {
+  background: rgb(254, 255, 255);
+}
+#menu li a:hover {
+  background: rgb(255, 255, 255);
+}
+#contenedor .slider {
+  float: left;
+}
+.banner {
+  position: static;
+  width: 100%;
+  height: 100vh;
+  border: 2px solid #000000;
+  background-size: 100% 100%;
+  margin: auto;
+  overflow: hidden;
+  animation: banner 10s infinite;
+  animation-direction: alternate;
+  z-index: 50;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  .banner {
+    width: 400px;
+    height: 200px;
+    z-index: 50;
+  }
+}
+@keyframes banner {
+  0%,
+  30% {
+    background-image: url(https://tecnobits.net/wp-content/uploads/2018/03/mejores-impresoras-2018.jpg);
+    opacity: 1;
+  }
+  31%,
+  34% {
+    opacity: 0.5;
+  }
+  35%,
+  65% {
+    background-image: url(https://blog.soltekonline.com/content/images/2019/11/0-2.jpg);
+    opacity: 1;
+  }
+  66%,
+  69% {
+    opacity: 0.5;
+  }
+  70%,
+  100% {
+    background-image: url(https://icdn.dtcn.com/image/digitaltrends_es/mejores-computadoras-escritorio-dell-g5-gaming41-2-500x500.jpg);
+    opacity: 1;
+  }
+}
+
+.red1,.red2,.red3{
+  padding: 7px 7px;
+}
