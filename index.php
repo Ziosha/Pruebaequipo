@@ -1,49 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="public/css/style.css">
-  <link rel="stylesheet" href="public/css/normalize.css">
-  <title>Login</title>
-</head>
-<body>
-   <div class="conte">
-      <div class="login">
-        <h1> Login</h1>
-        <p>ingrese su correo y contraseña</p>
-        <div class="alert alert-danger" role="alert" id="lblmensaje">
-        <strong class="d-block d-sm-inline-block-force">Error!</strong> Campos vacios.
-        </div>
-
-        <div class="alert alert-warning" role="alert" id="lblerror">
-        <strong class="d-block d-sm-inline-block-force">Advertencia!</strong> Verificar Credenciales.
-        </div>
-
-        <div class="alert alert-warning" role="alert" id="lblregistro">
-        <strong class="d-block d-sm-inline-block-force">Error!</strong> No Registrado.
-        </div>
-        <input type="text" id="txtcorreo" name="txtcorreo" placeholder="Correo">
-        <input type="password" id="txtpass" name="txtpass" placeholder="COntraseña">
-        <input class="bnt" id="btnlogin" type="submit" value="ingresar">
-        <a class="btn1" id="btllogin" href="#"><img src="https://image.flaticon.com/icons/png/512/300/300221.png" height="15px" alt="icon google"> |   ingrese con Google</a>
-        <p>¿No estas registrado ? <a class="ref " href="register.php">Registrarse</a></p>
-      
-      
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="public/css/cssTecnoStore.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+   
+    <div class="banner">
+    <header>
+     <audio autoplay="true">
+        <source
+          src="../Proyecto final/Algorithm (Alternate Reality Version).mp3"
+          type="audio/mp3"
+        />
+      </audio>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="view/Home/login.php">Iniciar Sesion</a>
+          </li>
+          <li>
+            <a href="">perifericos</a>
+            <ul>
+              <li><a href="view/Home/tarjetasGraficas.php">Tarjetas graficas</a></li>
+              <li><a href="">Mouses</a></li>
+              <li><a href="">Monitores</a></li>
+              <li><a href="">Memorias RAM</a></li>
+              <li><a href="">Headsets</a></li>
+              <li><a href="">Teclados</a></li>
+              <li><a href="">Motherboard</a></li>
+            </ul>
+          </li>
+          <li><a href="">Acerca de nosotros</a></li>
+        </ul>
+      </nav>
+      <h1>Bienvenidos a Tecno Store</h1>
+    </header>
+  </div>
+    
+    
+    
+    <footer class="pie">
+      <div style="text-align: center">
+        <table class="piepagina" style="margin: 0 auto">
+          <tr>
+            <br />
+            <td class="red1">
+              <a href=""
+                ><img
+                  src="https://image.flaticon.com/icons/png/512/124/124010.png"
+                  width="60px"
+              /></a>
+            </td>
+            <td class="red2">
+              <a href=""
+                ><img
+                  src="https://www.reasonwhy.es/sites/default/files/nuevo_icono_youtube_-_reasonwhy.png"
+                  width="80px"
+              /></a>
+            </td>
+            <td class="red3">
+              <a href=""
+                ><img
+                  src="https://cdn.pixabay.com/photo/2021/06/15/12/14/instagram-6338393_960_720.png"
+                  width="60px"
+              /></a>
+            </td>
+          </tr>
+        </table>
       </div>
-   </div>
-</div>
-</div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
-<script src="public/js/index.js"></script>
-
-
-
-
-
-</body>
+      <div style="text-align: center" class="fin">
+        <a href="" style="text-decoration: none"
+          >Derechos reservados a Hacker Squad @</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
