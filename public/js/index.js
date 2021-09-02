@@ -12,23 +12,23 @@ firebase.initializeApp(config);
 
 
 var auth = firebase.auth();
-document.getElementById('btllogin').addEventListener('click', function () {
+document.getElementById('btlingre').addEventListener('click', function () {
     var provider = new firebase.auth.GoogleAuthProvider();
     auth.signInWithPopup(provider)
     .then(function (result) {
         var user = result.user;
-        
+        console.log(user);
         console.log(result.user.providerData[0].displayName);
-        console.log(result.user.providerData[0].email);
+        console.log(result.user.providerData[0].uid);
         console.log(result.user.providerData[0].photoURL);
 
-        $.post("controller/usuario.php?op=accesosocial",{usu_correo:result.user.providerData[0].email},function(data){
+        $.post("../../controller/usuario.php?op=accesosocial",{correo:result.user.providerData[0].uid},function(data){
             if(data==0){
                 $('#lblerror').hide();
                 $('#lblmensaje').hide();
                 $('#lblregistro').show();
             }else{
-                window.open('http://localhost/login/view/home/','_self');
+                window.open('http://localhost/pruebaequipo/','_self');
             }
         });
     }).catch(function (error) {
@@ -47,21 +47,20 @@ $(document).ready(function() {
     $('#lblregistro').hide();
 });
 
-$(document).on("click", "#btnlogin", function () {
+$(document).on("click", "#btningresar", function () {
     var correo =  $('#txtcorreo').val();
     var pass =  $('#txtpass').val();
-
     if (correo=='' || pass==''){
         $('#lblmensaje').show();
         $('#lblerror').hide();
         $('#lblregistro').hide();
     }else{
-        $.post("controller/usuario.php?op=acceso",{correo:correo,pass:pass},function(data){
+        $.post("../../controller/usuario.php?op=acceso",{correo:correo,pass:pass},function(data){
             if(data==0){
                 $('#lblerror').show();
                 $('#lblmensaje').hide();
             }else{
-                window.open('http://localhost/login/view/home/','_self');
+                window.open('http://localhost/pruebaequipo/','_self');
             }
         });
     }
