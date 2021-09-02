@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <link href="../../public/css/csstarjeta.css" rel="stylesheet" type="text/css" />
-<title>TARJETAS</title>
-<link rel="stylesheet" href="">
+
+<title>HOMEPAGE</title>
 </head>
 
 <body>
