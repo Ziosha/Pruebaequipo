@@ -12,6 +12,7 @@ header {
 }
 ul {
   list-style: none;
+  z-index: 100;
 }
 #menu li > a {
   background-color: #5ADEE2;
@@ -20,20 +21,25 @@ ul {
   display: block;
   text-decoration: none;
   min-width: 100px;
+  z-index: 100;
 }
 #menu li > a:hover {
   color: #000;
   background-color: #0c95c2;
+  z-index: 100;
 }
 #menu > li {
   float: left;
   text-align: center;
+  z-index: 100;
 }
 #menu > li > ul {
   display: none;
+  z-index: 100;
 }
 #menu > li:hover > ul {
   display: block;
+  z-index: 100;
 }
 body {
   align-items: center;
@@ -51,6 +57,7 @@ h1 {
   float: left;
 }
 .banner {
+  position: static;
   width: 90%;
   height: 720px;
   border: 2px solid #000000;
@@ -59,12 +66,14 @@ h1 {
   overflow: hidden;
   animation: banner 10s infinite;
   animation-direction: alternate;
+  z-index: 50;
 }
 
 @media only screen and (min-width: 400px) and (max-width: 767px) {
   .banner {
     width: 400px;
     height: 200px;
+    z-index: 50;
   }
 }
 @keyframes banner {
@@ -93,4 +102,6 @@ h1 {
   }
 }
 
-
+nav{
+  z-index: 100;
+}
