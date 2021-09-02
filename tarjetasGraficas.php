@@ -6,9 +6,11 @@
 <title>HOMEPAGE</title>
 <link rel="stylesheet" href="">
 </head>
+
 <body>
+
 <section class="wrap-3d">
-  
+<a href="">Inicio</a>
   <div class="intro">
     <h1>Tarjetas graficas</h1>
     <p>busque sutarjeta grafica de la mejor manera, con la mejor tienda de perifericos</p>
