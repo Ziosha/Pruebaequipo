@@ -25,9 +25,9 @@
         <strong class="d-block d-sm-inline-block-force">Error!</strong> No Registrado.
         </div>
         <input type="text" id="txtcorreo" name="txtcorreo" placeholder="Correo">
-        <input type="password" id="txtpass" name="txtpass" placeholder="COntraseña">
-        <input class="bnt" id="btnlogin" type="submit" value="ingresar">
-        <a class="btn1" id="btllogin" href="#"><img src="https://image.flaticon.com/icons/png/512/300/300221.png" height="15px" alt="icon google"> |   ingrese con Google</a>
+        <input type="password" id="txtpass" name="txtpass" placeholder="Contraseña">
+        <input class="bnt" id="btningresar" type="submit" value="ingresar">
+        <a class="btn1" id="btlingre" href="#"><img src="https://image.flaticon.com/icons/png/512/300/300221.png" height="15px" alt="icon google"> |   ingrese con Google</a>
         <p>¿No estas registrado ? <a class="ref " href="register.php">Registrarse</a></p>
       
       
