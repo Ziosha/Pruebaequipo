@@ -31,8 +31,8 @@
             <a href="">perifericos</a>
             <ul>
               <li><a href="view/Home/tarjetasGraficas.php">Tarjetas graficas</a></li>
-              <li><a href="">Mouses</a></li>
-              <li><a href="">Monitores</a></li>
+              <li><a href="view/Home/mouses.php">Mouses</a></li>
+              <li><a href="view/Home/Monitores.php">Monitores</a></li>
               <li><a href="">Memorias RAM</a></li>
               <li><a href="">Headsets</a></li>
               <li><a href="">Teclados</a></li>

@@ -2,18 +2,20 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link href="/public/css/csstarjeta.css" rel="stylesheet" type="text/css" />
-<title>HOMEPAGE</title>
-
+<link href="../../public/css/csstarjeta.css" rel="stylesheet" type="text/css" />
+<title>TARJETAS</title>
+<link rel="stylesheet" href="">
 </head>
 
 <body>
 
 <section class="wrap-3d">
-<a href="">Inicio</a>
   <div class="intro">
+  <a class="animated-border-button" href="http://localhost:8090/Pruebaequipo/">Inicio</a>
+<br>
+<br>
     <h1>Tarjetas graficas</h1>
-    <p>busque sutarjeta grafica de la mejor manera, con la mejor tienda de perifericos</p>
+    <p>busque su tarjeta grafica de la mejor manera, con la mejor tienda de perifericos</p>
 
   </div>
   
@@ -90,7 +92,7 @@
     <span class="ground"></span>
     <figure class="item-content group">
       <div class="item-img">
-        <img src="https://w7.pngwing.com/pngs/119/402/png-transparent-graphics-cards-video-adapters-nvidia-geforce-gtx-1050-ti-gddr5-sdram-%E8%8B%B1%E4%BC%9F%E8%BE%BE%E7%B2%BE%E8%A7%86gtx-others-electronic-device-geforce-gtx.png" alt="" />
+        <img src="https://static-geektopia.com/storage/geek/products/gigabyte/geforce-gtx-1050-ti-windforce-oc-4g/20161017110058_big.png" alt="" />
       </div>
       <figcaption class="item-caption">
         <p>
@@ -131,7 +133,7 @@
   </div>
   
   <footer class="footer">
-    <p>hacker squad &copy; 2021 hacker squad <a  target="_blank">Hornebom</a></p>
+    <p>hacker squad &copy; 2021 hacker squad <a  target="_blank">Tarjetas</a></p>
   </footer>
 </section>
 </body>
