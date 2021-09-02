@@ -25,12 +25,12 @@
       <nav>
         <ul id="menu">
           <li>
-            <a href="">Iniciar Sesion</a>
+            <a href="view/Home/login.php">Iniciar Sesion</a>
           </li>
           <li>
             <a href="">perifericos</a>
             <ul>
-              <li><a href="tarjetasGraficas.php">Tarjetas graficas</a></li>
+              <li><a href="view/Home/tarjetasGraficas.php">Tarjetas graficas</a></li>
               <li><a href="">Mouses</a></li>
               <li><a href="">Monitores</a></li>
               <li><a href="">Memorias RAM</a></li>
