@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="cssTecnoStore.css" rel="stylesheet" type="text/css" />
+    <link href="public/css/cssTecnoStore.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
@@ -25,12 +25,12 @@
       <nav>
         <ul id="menu">
           <li>
-            <a href="">Iniciar Sesion</a>
+            <a href="view/Home/login.php">Iniciar Sesion</a>
           </li>
           <li>
             <a href="">perifericos</a>
             <ul>
-              <li><a href="tarjetasGraficas.php">Tarjetas graficas</a></li>
+              <li><a href="view/Home/tarjetasGraficas.php">Tarjetas graficas</a></li>
               <li><a href="">Mouses</a></li>
               <li><a href="">Monitores</a></li>
               <li><a href="">Memorias RAM</a></li>
