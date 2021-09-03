@@ -28,7 +28,7 @@ document.getElementById('btlingre').addEventListener('click', function () {
                 $('#lblmensaje').hide();
                 $('#lblregistro').show();
             }else{
-                window.open('http://localhost/pruebaequipo/','_self');
+                window.open('../../index.php','_self');
             }
         });
     }).catch(function (error) {
@@ -60,7 +60,7 @@ $(document).on("click", "#btningresar", function () {
                 $('#lblerror').show();
                 $('#lblmensaje').hide();
             }else{
-                window.open('http://localhost/pruebaequipo/','_self');
+                window.open('../../index.php','_self');
             }
         });
     }
