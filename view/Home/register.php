@@ -18,17 +18,11 @@
         <input type="email" id="correo" name="correo" placeholder="Correo">
         <input type="password" id="pass" name="pass" placeholder="Contraseña">
         <input type="password" id="pass1" name="pass1" placeholder="Repite Contraseña">
-<<<<<<< HEAD
         <input class="bnt" id="btnregistrar" type="submit" value="Registrar">
 
         <a class="btn1" id="btlregis" href="#"><img src="https://image.flaticon.com/icons/png/512/300/300221.png" height="15px" alt="icon google"> |   Registrar con Google</a>
         <p>¿ya esta registrado ? <a class="ref " href="login.php">Acceso</a></p>
-=======
-        <input class="bnt" id="btnregister" type="submit" value="Registrar">
 
-        <a class="btn1" id="btllogin" href="#"><img src="https://image.flaticon.com/icons/png/512/300/300221.png" height="15px" alt="icon google"> |   Registrar con Google</a>
-        <p>¿ya esta registrado ? <a class="ref " href="index.php">Acceso</a></p>
->>>>>>> patata
       
       
       </div>

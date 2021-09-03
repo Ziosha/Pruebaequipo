@@ -360,20 +360,14 @@ strong {
 .footer a:hover:before, .footer a:active:before, .footer a:focus:before {
   opacity: 0.5;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
 body button .btn1{
   size: 20px;
   padding: 6px;
   border-radius: 10px;
   color: lightslategray;
   background-color: lightslategrey;
-=======
->>>>>>> fontend
-=======
->>>>>>> patata
+}
 .animated-border-button {
   background-color: #263059;
   border: none;
@@ -411,11 +405,5 @@ body button .btn1{
 }
 .animated-border-button{
   float: right;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ec035ae59cc22a1a0152059927d954d60c03a7bc
->>>>>>> fontend
-=======
->>>>>>> patata
+
 }
