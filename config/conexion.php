@@ -6,8 +6,8 @@ class Conectar{
     protected function conexion(){
         try{
 
-            //$conectar = $this->dbh = new PDO("mysql:local=localhost;dbname=bdperifericos","root","");
-            $conectar = $this->dbh = new PDO("mysql:local=localhost;port=3308;dbname=bdperifericos","root","");
+            $conectar = $this->dbh = new PDO("mysql:local=localhost;dbname=bdperifericos","root","");
+            // $conectar = $this->dbh = new PDO("mysql:local=localhost;port=3308;dbname=bdperifericos","root","");
 
             return $conectar;
         } catch (Exception $e){

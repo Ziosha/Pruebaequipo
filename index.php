@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Perifericos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="public/css/cssTecnoStore.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +41,7 @@
 
             </ul>
           </li>
-          <li><a href="">Acerca de nosotros</a></li>
+          <li><a href="view/Home/acercadenosotros.php">Acerca de nosotros</a></li>
         </ul>
       </nav>
       <h1>Bienvenidos a Tecno Store</h1>
