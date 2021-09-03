@@ -30,23 +30,7 @@
           <li>
             <a href="">perifericos</a>
             <ul>
-<<<<<<< HEAD
-              <li><a href="view/Home/tarjetasGraficas.php">Tarjetas graficas</a></li>
-              <li><a href="view/Home/mouses.php">Mouses</a></li>
-              <li><a href="view/Home/Monitores.php">Monitores</a></li>
-<<<<<<< HEAD
-              <li><a href="">Memorias RAM</a></li>
-              <li><a href="">Headsets</a></li>
-              <li><a href="">Teclados</a></li>
-              <li><a href="">Motherboard</a></li>
-=======
-              <li><a href="view/Home/ram.php">Memorias RAM</a></li>
-              <li><a href="view/Home/headseat.php">Headsets</a></li>
-              <li><a href="view/Home/teclados.php">Teclados</a></li>
-              <li><a href="view/Home/Placasmadres.php">Motherboard</a></li>
 
->>>>>>> fontend
-=======
               <li><a href="controller/productos.php?prod=grafica">Tarjetas graficas</a></li>
               <li><a href="controller/productos.php?prod=mouse">Mouses</a></li>
               <li><a href="controller/productos.php?prod=monitor">Monitores</a></li>
@@ -54,7 +38,7 @@
               <li><a href="controller/productos.php?prod=headset">Headsets</a></li>
               <li><a href="controller/productos.php?prod=teclado">Teclados</a></li>
               <li><a href="controller/productos.php?prod=motherboard">Motherboard</a></li>
->>>>>>> patata
+
             </ul>
           </li>
           <li><a href="">Acerca de nosotros</a></li>
@@ -63,12 +47,7 @@
       <h1>Bienvenidos a Tecno Store</h1>
     </header>
   </div>
-<<<<<<< HEAD
-    
-    
-    
-=======
->>>>>>> patata
+
     <footer class="pie">
       <div style="text-align: center">
         <table class="piepagina" style="margin: 0 auto">
