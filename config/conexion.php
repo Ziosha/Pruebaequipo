@@ -5,12 +5,10 @@ class Conectar{
 
     protected function conexion(){
         try{
-<<<<<<< HEAD
-            $conectar = $this->dbh = new PDO("mysql:local=localhost;dbname=bdperifericos","root","");
-=======
+
             //$conectar = $this->dbh = new PDO("mysql:local=localhost;dbname=bdperifericos","root","");
             $conectar = $this->dbh = new PDO("mysql:local=localhost;port=3308;dbname=bdperifericos","root","");
->>>>>>> patata
+
             return $conectar;
         } catch (Exception $e){
             print "¡Error BD!: " . $e->getMessage() . "<br/>";
