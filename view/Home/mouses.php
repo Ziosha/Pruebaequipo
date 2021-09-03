@@ -2,7 +2,11 @@
 <html>
 <head>
 <meta charset="utf-8">
+<<<<<<< HEAD
 <link href="../../public/css/cssmouses.css" rel="stylesheet" type="text/css" />
+=======
+<link href="../../public/css/csstarjeta.css" rel="stylesheet" type="text/css" />
+>>>>>>> fontend
 <title>MOUSES</title>
 <link rel="stylesheet" href="">
 </head>
@@ -11,7 +15,11 @@
 
 <section class="wrap-3d">
   <div class="intro">
+<<<<<<< HEAD
   <a class="animated-border-button" href="../../index.php">Inicio</a>
+=======
+  <a class="animated-border-button" href="http://localhost:8090/Pruebaequipo/">Inicio</a>
+>>>>>>> fontend
 <br>
 <br>
     <h1>Mouses Gaiming</h1>
@@ -27,11 +35,19 @@
       </div>
       <figcaption class="item-caption">
         <p>
+<<<<<<< HEAD
           <strong>Logitech G900</strong><br>
           Botones programables<br>
           Inalambrico<br>
           DPI maximo de 12000<br>
           1830 MHz
+=======
+          <strong>Nombre</strong><br>
+          Marca: <br>
+          DPI: <br>
+          Costo: <br>
+          Stock: 
+>>>>>>> fontend
         </p>
         <p>
           <strong>Lock</strong><br>
@@ -41,6 +57,7 @@
       </figcaption>
     </figure>
   </div>
+<<<<<<< HEAD
   
   <div class="item-3d">
     <span class="ground"></span>
@@ -132,6 +149,9 @@
     </figure>
   </div>
   
+=======
+   
+>>>>>>> fontend
   <footer class="footer">
     <p>hacker squad &copy; 2021 hacker squad <a  target="_blank">Mouses</a></p>
   </footer>

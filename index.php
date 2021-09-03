@@ -33,10 +33,18 @@
               <li><a href="view/Home/tarjetasGraficas.php">Tarjetas graficas</a></li>
               <li><a href="view/Home/mouses.php">Mouses</a></li>
               <li><a href="view/Home/Monitores.php">Monitores</a></li>
+<<<<<<< HEAD
               <li><a href="">Memorias RAM</a></li>
               <li><a href="">Headsets</a></li>
               <li><a href="">Teclados</a></li>
               <li><a href="">Motherboard</a></li>
+=======
+              <li><a href="view/Home/ram.php">Memorias RAM</a></li>
+              <li><a href="view/Home/headseat.php">Headsets</a></li>
+              <li><a href="view/Home/teclados.php">Teclados</a></li>
+              <li><a href="view/Home/Placasmadres.php">Motherboard</a></li>
+
+>>>>>>> fontend
             </ul>
           </li>
           <li><a href="">Acerca de nosotros</a></li>
