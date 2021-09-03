@@ -1,10 +1,24 @@
+<<<<<<< HEAD
+=======
+<?php
+    require_once("../../config/conexion.php");
+    require_once("../../models/GetProducto.php");
+
+    $graficas = new DevuelveProductos();
+?>
+>>>>>>> patata
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <link href="../../public/css/csstarjeta.css" rel="stylesheet" type="text/css" />
+<<<<<<< HEAD
 
 <title>HOMEPAGE</title>
+=======
+<title>TARJETASGRAFICAS</title>
+
+>>>>>>> patata
 </head>
 
 <body>
@@ -19,10 +33,19 @@
 
   </div>
   
+<<<<<<< HEAD
+=======
+  <?php
+  $infoGra = $graficas->getGraficas();
+  foreach($infoGra as $graphic):
+  ?>
+
+>>>>>>> patata
   <div class="item-3d">
     <span class="ground"></span>
     <figure class="item-content group">
       <div class="item-img">
+<<<<<<< HEAD
         <img src="https://www.gigabyte.com/FileUpload/Global/KeyFeature/1211/img/vga/02.png" alt="" />
       </div>
       <figcaption class="item-caption">
@@ -37,11 +60,28 @@
           <strong>Lock</strong><br>
           RGB agresivo 2.0<br>
           Sistema Raytraicing
+=======
+        <img src="../../imagenes/imgProductos/graficas/<?php echo $graphic['imagen'];?>" alt="" />
+      </div>
+      <figcaption class="item-caption">
+        <p>
+          <strong><?php echo $graphic['modelo'];?><br>
+          6 Gb<br>
+          Triple ventilador<br>
+          <?php echo $graphic['capacidad'];?> MHz <br>
+          Costo: <?php echo $graphic['costo'];?> Bs. <br>
+        </p>
+        <p>
+          <strong>Lock</strong><br>
+          Sistema Raytraicing <br>
+          En stock: <?php echo $graphic['stock'];?>
+>>>>>>> patata
         </p>
       </figcaption>
     </figure>
   </div>
   
+<<<<<<< HEAD
   <div class="item-3d">
     <span class="ground"></span>
     <figure class="item-content group">
@@ -134,6 +174,12 @@
   
   <footer class="footer">
     <p>hacker squad &copy; 2021 hacker squad <a  target="_blank">Tarjetas</a></p>
+=======
+  <?php endforeach; ?>
+  
+  <footer class="footer">
+    <p>hacker squad &copy; 2021 hacker squad <a  target="_blank">Hornebom</a></p>
+>>>>>>> patata
   </footer>
 </section>
 </body>

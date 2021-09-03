@@ -1,12 +1,25 @@
+<<<<<<< HEAD
+=======
+<?php
+    require_once("../../config/conexion.php");
+    require_once("../../models/GetProducto.php");
+
+    $items = new DevuelveProductos();
+?>
+>>>>>>> patata
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <link href="../../public/css/cssmouses.css" rel="stylesheet" type="text/css" />
 =======
 <link href="../../public/css/csstarjeta.css" rel="stylesheet" type="text/css" />
 >>>>>>> fontend
+=======
+<link href="../../public/css/csstarjeta.css" rel="stylesheet" type="text/css" />
+>>>>>>> patata
 <title>MOUSES</title>
 <link rel="stylesheet" href="">
 </head>
@@ -16,10 +29,14 @@
 <section class="wrap-3d">
   <div class="intro">
 <<<<<<< HEAD
+<<<<<<< HEAD
   <a class="animated-border-button" href="../../index.php">Inicio</a>
 =======
   <a class="animated-border-button" href="http://localhost:8090/Pruebaequipo/">Inicio</a>
 >>>>>>> fontend
+=======
+  <a class="animated-border-button" href="../../index.php">Inicio</a>
+>>>>>>> patata
 <br>
 <br>
     <h1>Mouses Gaiming</h1>
@@ -27,10 +44,19 @@
 
   </div>
   
+<<<<<<< HEAD
+=======
+  <?php
+  $infoGra = $items->getMouse();
+  foreach($infoGra as $item):
+  ?>
+
+>>>>>>> patata
   <div class="item-3d">
     <span class="ground"></span>
     <figure class="item-content group">
       <div class="item-img">
+<<<<<<< HEAD
         <img src="https://resource.logitechg.com/w_659,c_limit,f_auto,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/gaming/en/products/g903-hero/g903-hero-desktop-nw.png?v=1" alt="" />
       </div>
       <figcaption class="item-caption">
@@ -52,11 +78,25 @@
         <p>
           <strong>Lock</strong><br>
           RGB tenue <br>
+=======
+        <img src="../../imagenes/imgProductos/mouse/<?php echo $item['imagen'];?>" alt="" />
+      </div>
+      <figcaption class="item-caption">
+        <p>
+          <strong><?php echo $item['marca'];?></strong><br>
+          DPI: <?php echo $item['DPI'];?><br>
+          Costo: <?php echo $item['costo'];?>Bs.<br>
+          Stock: <?php echo $item['stock'];?>
+        </p>
+        <p>
+          <strong>Lock</strong><br>
+>>>>>>> patata
           Ambidiestro
         </p>
       </figcaption>
     </figure>
   </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
   
   <div class="item-3d">
@@ -152,6 +192,11 @@
 =======
    
 >>>>>>> fontend
+=======
+  
+  <?php endforeach; ?>
+
+>>>>>>> patata
   <footer class="footer">
     <p>hacker squad &copy; 2021 hacker squad <a  target="_blank">Mouses</a></p>
   </footer>

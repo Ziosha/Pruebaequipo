@@ -21,10 +21,17 @@
             return $resultado=$sql->fetchAll();
         }
 
+<<<<<<< HEAD
         public function register_usuario($nomUsu,$pass,$correo){
             $conectar = parent::conexion();
             parent::set_names();
             $sql="INSERT INTO `usuarios` (id,nomUsu,pass,correo,estado) VALUES (NULL,?,?,?,'1');";
+=======
+        public function register_usuario($nomUsu,$correo,$pass){
+            $conectar = parent::conexion();
+            parent::set_names();
+            $sql="INSERT INTO `usuarios` (usu_id,nomUsu,pass,correo,estado) VALUES (NULL,?,?,?,'1');";
+>>>>>>> patata
             $sql=$conectar->prepare($sql);
             $sql->bindValue(1, $nomUsu);
             $sql->bindValue(2, $correo);
