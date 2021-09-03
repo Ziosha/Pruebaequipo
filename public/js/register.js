@@ -28,7 +28,7 @@ document.getElementById('btlregis').addEventListener('click', function () {
                     confirmButtonText: `Ok`,
                 }).then((result) => {
                     if (result.isConfirmed) {
-                        window.open('http://localhost/pruebaequipo/','_self');
+                        window.open('../../index.php','_self');
                     }
                 });
             }else{
@@ -77,7 +77,7 @@ $(document).on("click", "#btnregistrar", function () {
                         confirmButtonText: `Ok`,
                     }).then((result) => {
                         if (result.isConfirmed) {
-                            window.open('http://localhost/pruebaequipo/','_self');
+                            window.open('../../index.php','_self');
                         }
                     });
                 }else{
