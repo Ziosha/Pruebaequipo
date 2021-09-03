@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="page_type" content="np-template-header-footer-from-plugin" />
     <title>acercadenosotros</title>
-    <link rel="stylesheet" href="acercadenosotros.css" media="screen" />
+    <link rel="stylesheet" href="../../public/css/acercadenosotros.css" media="screen" />
   </head>
   <body class="cuerpo">
     <header class="encabeza">
@@ -26,7 +26,7 @@
               uno del grupo es realizar un trabajo pulcro organizado y
               bien hecho
             </p>
-            <img class="imagen1" src="images/165814-9-perifericos-gaming-imprescincibles.jpg" width="450px">
+            <img class="imagen1" src="../../public/images/165814-9-perifericos-gaming-imprescincibles.jpg" width="450px">
       </div>          
     </section>
     <br>
@@ -37,7 +37,7 @@
     <section class="parte2">
       <div class="contendor2">
         <h1 class="titulo2">CALIDAD</h1>
-        <center><img class="foto2"src="images/14-sistema-informatico.jpg" width="450px"></center>
+        <center><img class="foto2"src="../../public/images/14-sistema-informatico.jpg" width="450px"></center>
         <p class="parrafo2">
           Productos bien realizados con el fin de tener la satisfaccion del cliente
           <br>
